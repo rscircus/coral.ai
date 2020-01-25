@@ -1,11 +1,8 @@
 Coral.ai
 ========
 
-.. toctree::
-    :maxdepth: 2
-
 Corresponding article
 ---------------------
 
-Can be found here: http://rscircus.github.io.
+Can be found here: https://rscircus.github.io/2020/01/25/coral-ai-edge.html.
 
