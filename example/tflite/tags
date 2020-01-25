@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BAZEL_BUILD_FLAGS	cpp/examples/lstpu/Makefile	/^BAZEL_BUILD_FLAGS := --crosstool_top=@crosstool\/\/:toolchains \\$/;"	m
+BAZEL_OUT_DIR	cpp/examples/lstpu/Makefile	/^BAZEL_OUT_DIR :=  $(MAKEFILE_DIR)\/bazel-out\/$(CPU)-$(COMPILATION_MODE)\/bin$/;"	m
+BBox	python/examples/detection/detect.py	/^class BBox(collections.namedtuple('BBox', ['xmin', 'ymin', 'xmax', 'ymax'])):$/;"	c
+COMPILATION_MODE	cpp/examples/lstpu/Makefile	/^COMPILATION_MODE ?= opt$/;"	m
+CPU	cpp/examples/lstpu/Makefile	/^CPU ?= k8$/;"	m
+Class	python/examples/classification/classify.py	/^Class = collections.namedtuple('Class', ['id', 'score'])$/;"	v
+EDGETPU_SHARED_LIB	python/examples/classification/classify_image.py	/^EDGETPU_SHARED_LIB = 'libedgetpu.so.1'$/;"	v
+EDGETPU_SHARED_LIB	python/examples/detection/detect_image.py	/^EDGETPU_SHARED_LIB = 'libedgetpu.so.1'$/;"	v
+MAKEFILE_DIR	cpp/examples/lstpu/Makefile	/^MAKEFILE_DIR := $(realpath $(dir $(lastword $(MAKEFILE_LIST))))$/;"	m
+Object	python/examples/detection/detect.py	/^Object = collections.namedtuple('Object', ['id', 'score', 'bbox'])$/;"	v
+SHELL	cpp/examples/lstpu/Makefile	/^SHELL := \/bin\/bash$/;"	m
+ToString	cpp/examples/lstpu/lstpu.cc	/^std::string ToString(edgetpu_device_type type) {$/;"	f
+__slots__	python/examples/detection/detect.py	/^  __slots__ = ()$/;"	v	class:BBox
+area	python/examples/detection/detect.py	/^  def area(self):$/;"	m	class:BBox
+draw_objects	python/examples/detection/detect_image.py	/^def draw_objects(draw, objs, labels):$/;"	f
+get_output	python/examples/classification/classify.py	/^def get_output(interpreter, top_k=1, score_threshold=0.0):$/;"	f
+get_output	python/examples/detection/detect.py	/^def get_output(interpreter, score_threshold, image_scale=(1.0, 1.0)):$/;"	f
+height	python/examples/detection/detect.py	/^  def height(self):$/;"	m	class:BBox
+input_size	python/examples/classification/classify.py	/^def input_size(interpreter):$/;"	f
+input_size	python/examples/detection/detect.py	/^def input_size(interpreter):$/;"	f
+input_tensor	python/examples/classification/classify.py	/^def input_tensor(interpreter):$/;"	f
+input_tensor	python/examples/detection/detect.py	/^def input_tensor(interpreter):$/;"	f
+intersect	python/examples/detection/detect.py	/^  def intersect(a, b):$/;"	m	class:BBox
+iou	python/examples/detection/detect.py	/^  def iou(a, b):$/;"	m	class:BBox
+load_labels	python/examples/classification/classify_image.py	/^def load_labels(path, encoding='utf-8'):$/;"	f
+load_labels	python/examples/detection/detect_image.py	/^def load_labels(path, encoding='utf-8'):$/;"	f
+main	cpp/examples/lstpu/lstpu.cc	/^int main(int argc, char* argv[]) {$/;"	f
+main	python/examples/classification/classify_image.py	/^def main():$/;"	f
+main	python/examples/detection/detect_image.py	/^def main():$/;"	f
+make	python/examples/detection/detect.py	/^  def make(i):$/;"	f	function:get_output
+make_interpreter	python/examples/classification/classify_image.py	/^def make_interpreter(model_file):$/;"	f
+make_interpreter	python/examples/detection/detect_image.py	/^def make_interpreter(model_file):$/;"	f
+map	python/examples/detection/detect.py	/^  def map(self, f):$/;"	m	class:BBox
+output_tensor	python/examples/classification/classify.py	/^def output_tensor(interpreter):$/;"	f
+output_tensor	python/examples/detection/detect.py	/^def output_tensor(interpreter, i):$/;"	f
+scale	python/examples/detection/detect.py	/^  def scale(self, sx, sy):$/;"	m	class:BBox
+set_input	python/examples/classification/classify.py	/^def set_input(interpreter, data):$/;"	f
+set_input	python/examples/detection/detect.py	/^def set_input(interpreter, size, resize):$/;"	f
+translate	python/examples/detection/detect.py	/^  def translate(self, dx, dy):$/;"	m	class:BBox
+union	python/examples/detection/detect.py	/^  def union(a, b):$/;"	m	class:BBox
+valid	python/examples/detection/detect.py	/^  def valid(self):$/;"	m	class:BBox
+width	python/examples/detection/detect.py	/^  def width(self):$/;"	m	class:BBox
